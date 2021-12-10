@@ -1,0 +1,51 @@
+.soft_bg {
+  background-color: #f7f6f0;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+.soft_container {
+  width: 1250px;
+  margin: auto;
+}
+.soft_container img {
+  width: 100%;
+}
+.soft_img p img {
+  width: 0.8rem;
+  margin-right: 0.4rem;
+}
+.soft_content p {
+  font-size: 0.9rem;
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  .soft_container {
+    width: 950px;
+    margin: 0 auto;
+  }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .soft_container {
+    width: 850px;
+    margin: 0 1rem;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .soft_container {
+    width: 700px;
+    margin: 0 1rem;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .soft_container {
+    width: 650px;
+    margin: 0 1rem;
+  }
+}

@@ -1,0 +1,128 @@
+.m_bg {
+  background-color: #f7f6f0;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.multi_page_container {
+  margin: 0 auto;
+  width: 1250px;
+}
+
+.multi_title_wrapper {
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.multi_img {
+  width: 100%;
+}
+.multi_title {
+  font-size: 2rem;
+  background-color: #0997d3;
+  color: #fff;
+  padding: 0.03rem 0.5rem;
+  border-radius: 0rem 0.6rem 0.6rem 0rem;
+  margin-left: 1rem;
+}
+.multi_title::before {
+  content: "";
+  background-color: #505c66;
+  width: 0.8rem;
+  height: 2.7rem;
+  position: absolute;
+  left: 0.7rem;
+}
+.multi_bottom_title {
+  color: #1a9ed5;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 1rem 0rem;
+}
+.multi_bottom_img img {
+  margin-right: 0.3rem;
+}
+.multi_bottom_img ul li {
+  list-style-type: circle;
+  font-size: 0.8rem;
+}
+.SALIENT {
+  margin: 1rem 0rem;
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .multi_page_container {
+    width: 1000px;
+    padding: 0 0.5rem;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .multi_page_container {
+    margin: 0 auto;
+    width: 700px;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .multi_page_container {
+    margin: 0 auto;
+    width: 700px;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .multi_page_container {
+    margin: 0 auto;
+    width: 500px;
+  }
+
+  .multi_title_wrapper {
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .multi_img {
+    width: 100%;
+  }
+  .multi_title {
+    font-size: 2rem;
+    background-color: #0997d3;
+    color: #fff;
+    padding: 0.03rem 0.5rem;
+    border-radius: 0rem 0.6rem 0.6rem 0rem;
+    margin-left: 1rem;
+  }
+  .multi_title::before {
+    content: "";
+    background-color: #505c66;
+    width: 0.8rem;
+    height: 2.7rem;
+    position: absolute;
+    left: 0.7rem;
+  }
+  .multi_bottom_title {
+    color: #1a9ed5;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1rem 0rem;
+  }
+  .multi_bottom_img img {
+    margin-right: 0.3rem;
+  }
+  .multi_bottom_img ul li {
+    list-style-type: circle;
+    font-size: 0.8rem;
+  }
+  .SALIENT {
+    margin: 1rem 0rem;
+  }
+}

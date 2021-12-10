@@ -1,0 +1,93 @@
+.ro_bg {
+  background-color: #f7f6f0;
+  width: 100%;
+}
+
+.ro_system_container {
+  margin: 0 auto;
+  width: 1250px;
+}
+.ro_system_header_img {
+  width: 100%;
+}
+.ro_system_bottom_image {
+  line-height: 1.7rem;
+}
+.ro_body_desc {
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .ro_system_container {
+    width: 100%;
+  }
+  .fifty_gpd_wrapper {
+    padding: 0rem 0.5rem;
+  }
+  .ro_system_header_img {
+    width: 100%;
+  }
+  .ro_system_bottom_image {
+    line-height: 1.7rem;
+  }
+  .ro_body_desc {
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .ro_system_container {
+    width: 100%;
+  }
+  .fifty_gpd_wrapper {
+    padding: 0rem 0.5rem;
+  }
+  .ro_system_header_img {
+    width: 100%;
+  }
+  .ro_system_bottom_image {
+    line-height: 1.7rem;
+  }
+  .ro_body_desc {
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .ro_system_container {
+    width: 100%;
+  }
+  .fifty_gpd_wrapper {
+    padding: 0rem 0.5rem;
+  }
+  .ro_system_header_img {
+    width: 100%;
+  }
+  .ro_system_bottom_image {
+    line-height: 1.7rem;
+  }
+  .ro_body_desc {
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .ro_system_container {
+    width: 100%;
+  }
+  .fifty_gpd_wrapper {
+    padding: 0rem 0.5rem;
+  }
+  .ro_system_header_img {
+    width: 100%;
+  }
+  .ro_system_bottom_image {
+    line-height: 1.7rem;
+  }
+  .ro_body_desc {
+  }
+}

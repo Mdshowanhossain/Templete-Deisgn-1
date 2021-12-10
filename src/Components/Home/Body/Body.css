@@ -1,0 +1,123 @@
+.body_container {
+  width: 1250px;
+  margin: auto;
+}
+
+.body_content {
+}
+.body_container h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.body_container .body_span_title {
+  color: #87cff2;
+}
+.body_desc_content p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .body_container {
+    width: 450px;
+    margin: auto;
+    padding: 0rem 0.5rem;
+  }
+
+  .body_container h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .body_container .body_span_title {
+    color: #87cff2;
+  }
+  .body_desc_content p {
+    margin-top: 0.1rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .body_container {
+    width: 450px;
+    padding: 0rem 1rem;
+  }
+
+  .body_container h1 {
+    font-size: 1.2rem;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .body_container {
+    width: 100%;
+    margin: auto;
+  }
+  .ffff {
+    padding: 0rem 1.5rem;
+  }
+  .body_container h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .body_container .body_span_title {
+    color: #87cff2;
+  }
+  .body_desc_content p {
+    margin-top: 0.1rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .body_container {
+    width: 100%;
+    margin: auto;
+  }
+  .ffff {
+    padding: 0rem 1.5rem;
+  }
+  .body_container h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .body_container .body_span_title {
+    color: #87cff2;
+  }
+  .body_desc_content p {
+    margin-top: 0.1rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  .body_container {
+    width: 100%;
+    margin: auto;
+  }
+  .ffff {
+    padding: 0rem 1.5rem;
+  }
+  .body_container h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .body_container .body_span_title {
+    color: #87cff2;
+  }
+  .body_desc_content p {
+    margin-top: 0.1rem;
+    font-size: 0.8rem;
+  }
+}
